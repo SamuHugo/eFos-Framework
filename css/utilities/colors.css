@@ -1,0 +1,6 @@
+
+.s-bg-primary { background: var(--primary); }
+.s-bg-secondary { background: var(--secondary); }
+
+.s-text-white { color: white; }
+.s-text-dark { color: var(--text); }

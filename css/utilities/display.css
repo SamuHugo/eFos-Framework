@@ -1,0 +1,24 @@
+
+.s-block { display: block; }
+.s-inline { display: inline; }
+.s-hidden { display: none; }
+
+.s-flex { display: flex; }
+.s-grid { display: grid; }
+
+
+
+.s-flex-col { flex-direction: column; }
+.s-flex-row { flex-direction: row; }
+
+.s-justify-center { justify-content: center; }
+.s-justify-between { justify-content: space-between; }
+
+.s-items-center { align-items: center; }
+
+
+.s-center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}

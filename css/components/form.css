@@ -1,0 +1,17 @@
+form *{
+    font-family: var(--font-base);
+}
+
+form .form-control{
+    padding: .5em 1em;
+    border-radius: var(--radius-sm);
+    border: var(--input-border);
+    color: var(--input-text-color);
+    transition: .3s ease all;
+    width: 100%;
+}
+
+form .form-control:focus{
+    border: var(--input-border-focus);
+}
+

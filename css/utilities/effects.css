@@ -1,0 +1,12 @@
+
+.s-shadow {
+  box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+}
+
+.s-hover-scale:hover {
+  transform: scale(1.05);
+}
+
+.s-transition {
+  transition: all 0.3s ease;
+}
