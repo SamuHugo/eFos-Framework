@@ -9,6 +9,30 @@
 </head>
 
 <body>
+    <header>
+        <nav class="nav">
+        <div class="nav-container">
+            <a href="#" class="navbar-icon nav-link">Test Page</a>
+            <input type="checkbox" id="icon-navbar">
+            <label class="nav-button" for="icon-navbar"><i class="fa-solid fa-bars"></i></label>
+            <ul class="navbar">
+                <li class="nav-item active"><a href="#" class="nav-link">Home</a></li>
+                <li class="nav-item"><a href="#" class="nav-link dropdown">Utilities <i class="fa-solid fa-angle-down"></i>
+                        <ul class="dropdown-menu">
+                            <li><a href="#" class="dropdown-item">Item 1</a></li>
+                            <li><a href="#" class="dropdown-item">Item 2</a></li>
+                            <li><a href="#" class="dropdown-item">Item 3</a></li>
+                            <li><a href="#" class="dropdown-item">Item 4</a></li>
+                        </ul>
+                    </a></li>
+                <li class="nav-item"><a href="#" class="nav-link">Community</a></li>
+                <li class="nav-item"><a href="#" class="nav-link">Contact</a></li>
+                <li class="nav-item"><a href="#" class="nav-link">About us</a></li>
+            </ul>
+        </div>
+    </nav>
+    </header>
+    <div class="m-5"></div>
     <h1>Hola</h1>
     <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Officiis quisquam consequatur impedit corporis
         recusandae, corrupti minus sed provident itaque earum, quaerat eos maiores rerum. Vero in a fugit. Temporibus,
@@ -29,74 +53,178 @@
         <input type="email" class="form-control" name="" id="">
     </form>
 
-    <div class="card" style="width: 18rem;">
-        <img class="card-image" src="resources/img/images.png" alt="">
-        <div class="card-body">
-            <h5 class="card-title">Hola Mundo</h5>
-            <h6 class="card-subtitle">Programación en todo el mundo</h6>
-            <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quasi perspiciatis
-                necessitatibus illo sapiente saepe quo, fugit eius facilis veniam quibusdam.</p>
-            <a href="" class="card-link">Clickeame</a>
+    <div class="container">
+        <h1>Card</h1>
+        <div class="card" style="width: 18rem;">
+            <img class="card-image" src="resources/img/images.png" alt="">
+            <div class="card-body">
+                <h5 class="card-title">Hola Mundo</h5>
+                <h6 class="card-subtitle">Programación en todo el mundo</h6>
+                <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quasi perspiciatis
+                    necessitatibus illo sapiente saepe quo, fugit eius facilis veniam quibusdam.</p>
+                <a href="" class="card-link">Clickeame</a>
+            </div>
         </div>
-    </div>
 
-    <div class="m-4"></div>
+        <div class="m-4"></div>
 
-    <div class="card" style="width: 18rem;">
-        <div class="card-body">
-            <h5 class="card-title">Hola Mundo</h5>
-            <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quasi perspiciatis
-                necessitatibus illo sapiente saepe quo, fugit eius facilis veniam quibusdam.</p>
+        <div class="card" style="width: 18rem;">
+            <div class="card-body">
+                <h5 class="card-title">Hola Mundo</h5>
+                <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quasi perspiciatis
+                    necessitatibus illo sapiente saepe quo, fugit eius facilis veniam quibusdam.</p>
+            </div>
         </div>
-    </div>
 
-    <div class="m-4"></div>
+        <div class="m-4"></div>
 
-    <div class="card" style="width: 18rem;">
-        <div class="card-header">
+        <div class="card" style="width: 18rem;">
+            <div class="card-header">
                 Marcas de Smartphones 1
+            </div>
+            <ul class="list-group">
+                <li class="list-group-item">Apple</li>
+                <li class="list-group-item">Samsung</li>
+                <li class="list-group-item">Motorola</li>
+                <li class="list-group-item">Huawei</li>
+                <li class="list-group-item">Xiaomi</li>
+            </ul>
         </div>
-        <ul class="list-group">
-            <li class="list-group-item">Apple</li>
-            <li class="list-group-item">Samsung</li>
-            <li class="list-group-item">Motorola</li>
-            <li class="list-group-item">Huawei</li>
-            <li class="list-group-item">Xiaomi</li>
-        </ul>
-    </div>
 
-    <div class="m-4"></div>
+        <div class="m-4"></div>
 
-    <div class="card" style="width: 18rem;">
-        <div class="card-header">
-            This is Header
+        <div class="card" style="width: 18rem;">
+            <div class="card-header">
+                This is Header
+            </div>
+            <ul class="list-group">
+                <li class="list-group-item">Apple</li>
+                <li class="list-group-item">Samsung</li>
+                <li class="list-group-item">Motorola</li>
+                <li class="list-group-item">Huawei</li>
+                <li class="list-group-item">Xiaomi</li>
+            </ul>
+            <div class="card-footer">
+                This is Footer
+            </div>
         </div>
-        <ul class="list-group">
-            <li class="list-group-item">Apple</li>
-            <li class="list-group-item">Samsung</li>
-            <li class="list-group-item">Motorola</li>
-            <li class="list-group-item">Huawei</li>
-            <li class="list-group-item">Xiaomi</li>
-        </ul>
-        <div class="card-footer">
-            This is Footer
-        </div>
-    </div>
 
-    <div class="m-4"></div>
+        <div class="m-4"></div>
 
-    <div class="card card-list" style="width: 18rem;">
-        <div class="card-header">
+        <div class="card card-list" style="width: 18rem;">
+            <div class="card-header">
                 Marcas de Smartphones 2
+            </div>
+            <ul class="list-group">
+                <li class="list-group-item">Apple</li>
+                <li class="list-group-item">Samsung</li>
+                <li class="list-group-item">Motorola</li>
+                <li class="list-group-item">Huawei</li>
+                <li class="list-group-item">Xiaomi</li>
+            </ul>
         </div>
-        <ul class="list-group">
-            <li class="list-group-item">Apple</li>
-            <li class="list-group-item">Samsung</li>
-            <li class="list-group-item">Motorola</li>
-            <li class="list-group-item">Huawei</li>
-            <li class="list-group-item">Xiaomi</li>
-        </ul>
+
+        <div class="m-4"></div>
+
+        <div class="card m-auto card-list" style="width: 56.25rem;">
+            <div class="card-body">
+                <h5 class="card-title">Lorem ipsum dolor sit</h5>
+                <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Neque sunt at consectetur
+                    aperiam quae doloribus fuga autem tempore, quam eum iste quod sapiente sit labore libero minima
+                    alias corrupti fugit dignissimos maiores dicta, suscipit nam harum? Assumenda culpa voluptatum modi
+                    labore veniam illum earum nihil impedit pariatur quisquam. Impedit soluta explicabo animi illum
+                    eaque corporis odio aspernatur obcaecati odit. Magnam ullam obcaecati quibusdam sapiente quisquam
+                    molestiae culpa error reprehenderit cupiditate eos fugit nemo sed aspernatur labore, eum nostrum
+                    porro nisi explicabo eaque delectus unde autem. Totam doloremque porro vero necessitatibus, commodi
+                    alias vitae earum dolorem quidem voluptatibus labore fugiat quod.</p>
+                <a href="#" class="btn btn-primary">Conoce más</a>
+            </div>
+        </div>
+
+        <div class="m-4"></div>
+
+        <div class="card m-auto card-list" style="width: 56.25rem;">
+            <div class="card-body">
+                <h5 class="card-title">Suscribe to mail for notifications</h5>
+                <div class="card-body-inline">
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Odio, adipisci?</p>
+                    <form action="">
+                        <input class="form-control" type="email" name="email" id=""
+                            placeholder="example-email-2026@hotmail.com">
+                        <input type="submit" class="btn btn-primary" value="Enviar">
+                    </form>
+                </div>
+            </div>
+        </div>
+
+        <div class="m-5"></div>
+    </div>
+
+    <div class="container">
+        <h1>Alerts</h1>
+        <div class="m-4"></div>
+        <div class="alert alert-primary"> Lorem ipsum dolor sit amet consectetur adipisicing elit. Maiores, possimus
+            atque? "Primary"</div>
+        <div class="m-1"></div>
+        <div class="alert alert-primary"><i class="fa-solid fa-gear"></i> Lorem ipsum dolor sit amet consectetur
+            adipisicing elit. Maiores, possimus atque? "Primary"</div>
+
+        <div class="m-4"></div>
+        <div class="alert alert-secondary"> Lorem ipsum dolor sit amet consectetur adipisicing elit. Maiores, possimus
+            atque? "Primary"</div>
+        <div class="m-1"></div>
+        <div class="alert alert-secondary"><i class="fa-solid fa-gear"></i> Lorem ipsum dolor sit amet consectetur
+            adipisicing elit. Maiores, possimus atque? "Primary"</div>
+
+
+        <div class="m-4"></div>
+        <div class="alert alert-success"> Lorem ipsum dolor sit amet consectetur adipisicing elit. Maiores, possimus
+            atque? "Primary"</div>
+        <div class="m-1"></div>
+        <div class="alert alert-success"><i class="fa-solid fa-check"></i> Lorem ipsum dolor sit amet consectetur
+            adipisicing elit. Maiores, possimus atque? "Primary"</div>
+
+
+        <div class="m-4"></div>
+        <div class="alert alert-danger"> Lorem ipsum dolor sit amet consectetur adipisicing elit. Maiores, possimus
+            atque? "Primary"</div>
+        <div class="m-1"></div>
+        <div class="alert alert-danger"><i class="fa-solid fa-xmark"></i> Lorem ipsum dolor sit amet consectetur
+            adipisicing elit. Maiores, possimus atque? "Primary"</div>
+
+
+        <div class="m-4"></div>
+        <div class="alert alert-warning"> Lorem ipsum dolor sit amet consectetur adipisicing elit. Maiores, possimus
+            atque? "Primary"</div>
+        <div class="m-1"></div>
+        <div class="alert alert-warning"><i class="fa-solid fa-triangle-exclamation"></i> Lorem ipsum dolor sit amet
+            consectetur adipisicing elit. Maiores, possimus atque? "Primary"</div>
+
+        <div class="m-4"></div>
+        <div class="alert alert-info"> Lorem ipsum dolor sit amet consectetur adipisicing elit. Maiores, possimus atque?
+            "Primary"</div>
+        <div class="m-1"></div>
+        <div class="alert alert-info"><i class="fa-solid fa-circle-info"></i> Lorem ipsum dolor sit amet consectetur
+            adipisicing elit. Maiores, possimus atque? "Primary"</div>
+
+
+        <div class="m-4"></div>
+        <div class="alert alert-light"> Lorem ipsum dolor sit amet consectetur adipisicing elit. Maiores, possimus
+            atque? "Primary"</div>
+        <div class="m-1"></div>
+        <div class="alert alert-light"><i class="fa-solid fa-link"></i> Lorem ipsum dolor sit amet consectetur
+            adipisicing elit. Maiores, possimus atque? "Primary"</div>
+
+
+        <div class="m-4"></div>
+        <div class="alert alert-dark"> Lorem ipsum dolor sit amet consectetur adipisicing elit. Maiores, possimus atque?
+            "Primary"</div>
+        <div class="m-1"></div>
+        <div class="alert alert-dark"><i class="fa-solid fa-link"></i> Lorem ipsum dolor sit amet consectetur
+            adipisicing elit. Maiores, possimus atque? "Primary"</div>
+
     </div>
 </body>
+<script src="https://kit.fontawesome.com/9541643713.js" crossorigin="anonymous"></script>
 
 </html>

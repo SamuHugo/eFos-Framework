@@ -13,6 +13,9 @@
     --color-white: #ffffff;
     --color-black: #000000;
 
+    --color-light: #FAFAFA;
+    --color-dark: #575D63;
+
     --color-text: #151516;
 
     --color-grey: #72646A;
@@ -51,10 +54,48 @@
     --color-card-bar: #eeeeee;
     --color-list-item: #EEEEEF;
 
+    /*Alerts*/
+    --alert-primary-bg: #CCE6FD;
+    --alert-secondary-bg: #E0E0E0;
+    --alert-success-bg: #CDF0D6;
+    --alert-danger-bg: #FAD6D7;
+    --alert-warning-bg: #F9F0CE;
+    --alert-info-bg: #F9E5D3;
+    --alert-light-bg: #FAFAFA;
+    --alert-dark-bg: #84888C;
+
+    --alert-primary-text: #044A87;
+    --alert-secondary-text: #363639;
+    --alert-success-text: #024A14;
+    --alert-danger-text: #511113;
+    --alert-warning-text: #655206;
+    --alert-info-text: #4F2C0C;
+    --alert-light-text: #464646;
+    --alert-dark-text: #25282B;
+
+    --alert-primary-border: 1px solid #0283F4;
+    --alert-secondary-border: 1px solid #636366;
+    --alert-success-border: 1px solid #04B230;
+    --alert-danger-border: 1px solid #E53438;
+    --alert-warning-border: 1px solid #DFB50A;
+    --alert-info-border: 1px solid #e07c23;
+    --alert-light-border: 1px solid #ECE8E8;
+    --alert-dark-border: 1px solid #575D63;
+
+
+
+
+
+
+
     /*Font*/
     --font-base: 'Inter Tight', sans-serif;
 
     /*Size Container*/
+    --container-width: 1200px; 
+    --container-width: 1200px; 
+    --container-width: 1200px; 
+    --container-width: 1200px; 
     --container-width: 1200px; 
 
     /*Spacing*/

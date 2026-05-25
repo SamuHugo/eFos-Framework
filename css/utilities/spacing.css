@@ -1,4 +1,6 @@
 /* Margin */
+.m-auto { margin: auto; }
+
 .m-1 { margin: var(--space-1); }
 .m-2 { margin: var(--space-2); }
 .m-3 { margin: var(--space-3); }
@@ -43,7 +45,8 @@
 
 /* Padding */
 
-.p-1 { padding: var(--space-1); }
+.p-auto { padding: auto; }
+
 .p-2 { padding: var(--space-2); }
 .p-3 { padding: var(--space-3); }
 .p-4 { padding: var(--space-4); }

@@ -5,6 +5,7 @@ body {
 html{
     line-height: 1.5;
     -webkit-text-size-adjust: 100%;
+    margin-top: 30px;
 }
 
 html,
@@ -39,10 +40,10 @@ abbr[title] {
 }
 
 a{
-    text-decoration: none;
-    text-transform: none;
-    background-color: transparent;
-    color: var(--color-link);
+  text-decoration: none;
+  text-transform: none;
+  background-color: transparent;
+  color: var(--color-link);
 }
 
 b,

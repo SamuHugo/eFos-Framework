@@ -6,6 +6,7 @@
     border-radius: var(--radius-md);
     box-shadow: var(--shadow-md);
     overflow: hidden;
+    display: block;
 }
 
 .card-header{
@@ -29,6 +30,19 @@
 
 .card-body{
     margin: 1rem;
+}
+
+.card-body-inline{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    justify-items: center;
+}
+
+.card-body-inline>form{
+    display: inline-flex;
+    gap: 1em;
 }
 
 .card-title{
@@ -106,4 +120,4 @@
 /* #endregion */
 
 
-/* #region  */
+/* #region   */
