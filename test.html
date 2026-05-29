@@ -10,27 +10,29 @@
 
 <body>
     <header>
+        
         <nav class="nav">
-        <div class="nav-container">
-            <a href="#" class="navbar-icon nav-link">Test Page</a>
-            <input type="checkbox" id="icon-navbar">
-            <label class="nav-button" for="icon-navbar"><i class="fa-solid fa-bars"></i></label>
-            <ul class="navbar">
-                <li class="nav-item active"><a href="#" class="nav-link">Home</a></li>
-                <li class="nav-item"><a href="#" class="nav-link dropdown">Utilities <i class="fa-solid fa-angle-down"></i>
+            <div class="nav-container">
+                <a href="#" class="navbar-icon nav-link">Test Page</a>
+                <input type="checkbox" id="icon-navbar">
+                <label class="nav-button" for="icon-navbar"><i class="fa-solid fa-bars"></i></label>
+                <ul class="navbar">
+                    <li class="nav-item active"><a href="#" class="nav-link">Home</a></li>
+                    <li class="nav-item"><a href="#" class="nav-link dropdown">Utilities <i
+                                class="fa-solid fa-angle-down"></i></a>
                         <ul class="dropdown-menu">
                             <li><a href="#" class="dropdown-item">Item 1</a></li>
                             <li><a href="#" class="dropdown-item">Item 2</a></li>
                             <li><a href="#" class="dropdown-item">Item 3</a></li>
                             <li><a href="#" class="dropdown-item">Item 4</a></li>
                         </ul>
-                    </a></li>
-                <li class="nav-item"><a href="#" class="nav-link">Community</a></li>
-                <li class="nav-item"><a href="#" class="nav-link">Contact</a></li>
-                <li class="nav-item"><a href="#" class="nav-link">About us</a></li>
-            </ul>
-        </div>
-    </nav>
+                    </li>
+                    <li class="nav-item"><a href="#" class="nav-link">Community</a></li>
+                    <li class="nav-item"><a href="#" class="nav-link">Contact</a></li>
+                    <li class="nav-item"><a href="#" class="nav-link">About us</a></li>
+                </ul>
+            </div>
+        </nav>
     </header>
     <div class="m-5"></div>
     <h1>Hola</h1>
@@ -50,7 +52,7 @@
 
     </div>
     <form action="" class="container">
-        <input type="email" class="form-control" name="" id="">
+        <input type="email" class="form-input" name="" id="">
     </form>
 
     <div class="container">
@@ -126,7 +128,7 @@
 
         <div class="m-4"></div>
 
-        <div class="card m-auto card-list" style="width: 56.25rem;">
+        <div class="card m-auto card-list">
             <div class="card-body">
                 <h5 class="card-title">Lorem ipsum dolor sit</h5>
                 <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Neque sunt at consectetur
@@ -137,27 +139,27 @@
                     molestiae culpa error reprehenderit cupiditate eos fugit nemo sed aspernatur labore, eum nostrum
                     porro nisi explicabo eaque delectus unde autem. Totam doloremque porro vero necessitatibus, commodi
                     alias vitae earum dolorem quidem voluptatibus labore fugiat quod.</p>
-                <a href="#" class="btn btn-primary">Conoce más</a>
+                <a href="#" class="btn btn-primary">Enviar</a>
             </div>
         </div>
 
         <div class="m-4"></div>
 
-        <div class="card m-auto card-list" style="width: 56.25rem;">
-            <div class="card-body">
-                <h5 class="card-title">Suscribe to mail for notifications</h5>
-                <div class="card-body-inline">
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Odio, adipisci?</p>
-                    <form action="">
-                        <input class="form-control" type="email" name="email" id=""
-                            placeholder="example-email-2026@hotmail.com">
-                        <input type="submit" class="btn btn-primary" value="Enviar">
-                    </form>
-                </div>
+        <div class="card m-auto card-list" ">
+            <div class=" card-body">
+            <h5 class="card-title">Suscribe to mail for notifications</h5>
+            <div class="card-body-inline">
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Odio, adipisci?</p>
+                <form action="">
+                    <input class="form-input w-0" type="email" name="email" id=""
+                        placeholder="example-email-2026@hotmail.com">
+                    <input type="submit" class="btn btn-primary" value="Enviar">
+                </form>
             </div>
         </div>
+    </div>
 
-        <div class="m-5"></div>
+    <div class="m-5"></div>
     </div>
 
     <div class="container">
@@ -223,6 +225,63 @@
         <div class="alert alert-dark"><i class="fa-solid fa-link"></i> Lorem ipsum dolor sit amet consectetur
             adipisicing elit. Maiores, possimus atque? "Primary"</div>
 
+    </div>
+
+    <div class="m-5"></div>
+
+    <div class="container">
+        <form action="" class="row">
+            <div class="col col-6 col-md-12">
+                <label for="inputFirstName" class="form-label">First Name</label>
+                <input type="text" class="form-input" id="inputFirstName">
+            </div>
+
+            <div class="col col-6 col-md-12">
+                <label for="inputLastName" class="form-label">Last Name</label>
+                <input type="text" class="form-input" id="inputLastName">
+            </div>
+
+            <div class="col col-12">
+                <label for="inputEmail" class="form-label">Email</label>
+                <input type="email" class="form-input" id="inputEmail">
+            </div>
+
+            <div class="col col-12">
+                <label for="inputAddress" class="form-label">Address</label>
+                <input type="text" class="form-input" id="inputAddress">
+            </div>
+
+            <div class="col col-6 col-md-12">
+                <label for="inputCity" class="form-label">City</label>
+                <select name="" class="form-input" id="inputCity">
+                    <option value="1">Seleccionar opción</option>
+                    <option value="2">Item 1</option>
+                    <option value="3">Item 2</option>
+                    <option value="4">Item 3</option>
+                    <option value="5">Item 4</option>
+                </select>
+            </div>
+
+            <div class="col col-4 col-md-6 col-sm-12">
+                <label for="inputPhone" class="form-label">Phone</label>
+                <input type="number" class="form-input" id="inputPhone">
+            </div>
+
+            <div class="col col-2 col-md-6 col-sm-12">
+                <label for="inputCodeName" class="form-label">Code Name</label>
+                <input type="number" class="form-input" id="inputCodeName">
+            </div>
+
+            <div class="col col-12 col-md-12">
+                <label for="inputMessage" class="form-label">Message</label>
+                <Textarea class="form-input" id="inputMessage"></Textarea>
+            </div>
+
+            <div class="col col-12">
+                <button class="btn btn-primary w-100">Enviar</button>
+            </div>
+
+        </form>
     </div>
 </body>
 <script src="https://kit.fontawesome.com/9541643713.js" crossorigin="anonymous"></script>

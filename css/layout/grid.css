@@ -1,15 +1,15 @@
-.row{
+.rowd{
     display: grid;
 }
 
 
-.row-auto {
+.rowd {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
   gap: var(--space-3);
 }
 
-
+/* 
 .col-1{ grid-template-columns:  repeat(1, 1fr); }
 .col-2{ grid-template-columns:  repeat(2, 1fr); }
 .col-3{ grid-template-columns:  repeat(3, 1fr); }
@@ -90,4 +90,4 @@
     .span-sm-10{ grid-column: span 10; }
     .span-sm-11{ grid-column: span 11; }
     .span-sm-12{ grid-column: span 12; }
-    }
+    } */

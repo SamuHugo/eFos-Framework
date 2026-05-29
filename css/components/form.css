@@ -2,16 +2,43 @@ form *{
     font-family: var(--font-base);
 }
 
-form .form-control{
+form .form-input{
     padding: .5em 1em;
-    border-radius: var(--radius-sm);
+    border-radius: var(--radius-md);
     border: var(--input-border);
     color: var(--input-text-color);
-    transition: .3s ease all;
+    transition: .3s ease;
     width: 100%;
 }
 
-form .form-control:focus{
-    border: var(--input-border-focus);
+form>div>.form-input{
+    margin-bottom: 1rem;
 }
 
+
+form textarea{
+    min-height: 120px;
+    resize: vertical;
+}
+
+
+form .form-input:focus{
+    border: var(--input-border-focus);
+    border-color: #0078D4;
+    box-shadow: 0 0 0 2px rgba(0,120,212,0.2);
+}
+
+textarea:focus {
+  outline: none;
+  border-color: #0078D4;
+  box-shadow: 0 0 0 2px rgba(0,120,212,0.2);
+}
+
+
+ .form-label{
+    display: block;
+    font-size: 14px;
+    color: var(--input-text-color);
+    font-weight: 500;
+    margin-bottom: .5rem;
+}

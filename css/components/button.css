@@ -1,13 +1,13 @@
-a.btn, button.btn, input[type="submit"].btn, .btn{
+a.btn, button .btn, input[type="submit"] .btn, .btn{
     margin: .125em  .25em;
     padding: .5em 1em;
-    border-radius: var(--radius-xlg);
+    border-radius: var(--radius-md);
     font-size: 16px;
+    text-align: center;
     font-family: inherit;
     font-weight: 400 !important;
     cursor: pointer;
     transition: .3s ease;
-    display: inline-block;
 }
 .btn-lg{
     font-size: 20px !important;
@@ -25,8 +25,9 @@ a.btn:hover, button.btn:hover, input[type="submit"].btn:hover, .btn:hover{
 .btn-primary{
     background-color: var(--color-primary);
     color: var(--color-white);
-    border: 1px solid var(--color-primary);
+    border: 1px solid var(--c- olor-primary);
 }
+
 .btn-primary:hover{
     background-color: var(--color-primary-hover);
 }
